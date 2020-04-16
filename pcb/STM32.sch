@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8850 3150 0    50   Input ~ 0
+Text HLabel 8850 3150 0    50   BiDi ~ 0
 STM32_CONTROL[5..0]
 Wire Bus Line
 	8850 3150 9250 3150
@@ -61,7 +61,7 @@ Text Label 10150 4000 2    50   ~ 0
 FPGA_CTRL_NE
 Wire Wire Line
 	9350 4000 10150 4000
-Text HLabel 8850 2350 0    50   Input ~ 0
+Text HLabel 8850 2350 0    50   BiDi ~ 0
 STM32_I2C[1..0]
 Wire Bus Line
 	8850 2350 9250 2350
@@ -85,9 +85,9 @@ Text HLabel 9450 1700 2    50   Input ~ 0
 STM32_RX
 Wire Wire Line
 	9050 1600 9450 1600
-Text HLabel 9450 1600 2    50   Input ~ 0
+Text HLabel 9450 1600 2    50   Output ~ 0
 STM32_TX
-Text HLabel 8850 4350 0    50   Input ~ 0
+Text HLabel 8850 4350 0    50   BiDi ~ 0
 STM32_JTAG[5..0]
 Wire Bus Line
 	8850 4350 9250 4350

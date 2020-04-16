@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -153,7 +153,7 @@ F 3 "~" H 3750 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3900 3200 4350 3200
-Text HLabel 8550 1350 0    50   Input ~ 0
+Text HLabel 8550 1350 0    50   BiDi ~ 0
 Omega2_SPI[4..0]
 Wire Bus Line
 	8550 1350 8950 1350
@@ -197,7 +197,7 @@ Text Label 6800 3900 2    50   ~ 0
 OMEGA2_I2C_SCL
 Text Label 6800 4000 2    50   ~ 0
 OMEGA2_I2C_SCA
-Text HLabel 8550 2450 0    50   Input ~ 0
+Text HLabel 8550 2450 0    50   BiDi ~ 0
 Omega2_I2C[1..0]
 Wire Bus Line
 	8550 2450 8950 2450
@@ -215,7 +215,7 @@ Wire Wire Line
 	9050 2700 9850 2700
 Wire Bus Line
 	8950 2600 8950 2450
-Text HLabel 8550 3050 0    50   Input ~ 0
+Text HLabel 8550 3050 0    50   BiDi ~ 0
 Omega2_JTAG[5..0]
 Wire Bus Line
 	8550 3050 8950 3050
@@ -702,7 +702,7 @@ Text HLabel 6150 3200 2    50   Input ~ 0
 ONION_SER1_RX
 Wire Wire Line
 	5750 3100 6150 3100
-Text HLabel 6150 3100 2    50   Input ~ 0
+Text HLabel 6150 3100 2    50   Output ~ 0
 ONION_SER1_TX
 Wire Notes Line
 	1650 5000 5450 5000
@@ -714,10 +714,10 @@ Wire Notes Line
 	1650 7400 1650 5000
 Text Notes 1950 5150 2    50   ~ 0
 USB
+Text Notes 1800 1550 2    50   ~ 0
+RTC????\n
 Wire Bus Line
 	8950 3050 8950 3650
 Wire Bus Line
 	8950 1350 8950 1950
-Text Notes 1800 1550 2    50   ~ 0
-RTC????\n
 $EndSCHEMATC
