@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name UNAL_Library)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/UNAL_Library.lib)(options "")(descr ""))
+  (lib (name UNAL_Library2)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/UNAL_Library2.lib)(options "")(descr ""))
+)

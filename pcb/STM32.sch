@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 8850 3150 0    50   Input ~ 0
+STM32_CONTROL[5..0]
+Wire Bus Line
+	8850 3150 9250 3150
+Text Label 10150 3250 2    50   ~ 0
+FPGA_CTRL_NAVD
+Entry Wire Line
+	9250 3150 9350 3250
+Wire Wire Line
+	9350 3250 10150 3250
+Entry Wire Line
+	9250 3300 9350 3400
+Entry Wire Line
+	9250 3450 9350 3550
+Entry Wire Line
+	9250 3600 9350 3700
+Entry Wire Line
+	9250 3750 9350 3850
+Text Label 10150 3400 2    50   ~ 0
+FPGA_CTRL_FMC_CLK
+Text Label 10150 3550 2    50   ~ 0
+FPGA_CTRL_NOE
+Text Label 10150 3700 2    50   ~ 0
+FPGA_CTRL_NWE
+Text Label 10150 3850 2    50   ~ 0
+FPGA_CTRL_NWAIT
+Wire Wire Line
+	9350 3400 10150 3400
+Wire Wire Line
+	10150 3550 9350 3550
+Wire Wire Line
+	9350 3700 10150 3700
+Wire Wire Line
+	10150 3850 9350 3850
+Entry Wire Line
+	9250 3900 9350 4000
+Entry Wire Line
+	9250 3900 9350 4000
+Entry Wire Line
+	9250 3750 9350 3850
+Entry Wire Line
+	9250 3900 9350 4000
+Entry Wire Line
+	9250 3750 9350 3850
+Text Label 10150 4000 2    50   ~ 0
+FPGA_CTRL_NE
+Wire Wire Line
+	9350 4000 10150 4000
+Text HLabel 8850 2350 0    50   Input ~ 0
+STM32_I2C[1..0]
+Wire Bus Line
+	8850 2350 9250 2350
+Text Label 10150 2450 2    50   ~ 0
+FPGA_I2C_SCL
+Entry Wire Line
+	9250 2350 9350 2450
+Wire Wire Line
+	9350 2450 10150 2450
+Entry Wire Line
+	9250 2500 9350 2600
+Text Label 10150 2600 2    50   ~ 0
+FPGA_I2C_SDA
+Wire Wire Line
+	9350 2600 10150 2600
+Wire Bus Line
+	9250 2500 9250 2350
+Wire Wire Line
+	9050 1700 9450 1700
+Text HLabel 9450 1700 2    50   Input ~ 0
+STM32_RX
+Wire Wire Line
+	9050 1600 9450 1600
+Text HLabel 9450 1600 2    50   Input ~ 0
+STM32_TX
+Text HLabel 8850 4350 0    50   Input ~ 0
+STM32_JTAG[5..0]
+Wire Bus Line
+	8850 4350 9250 4350
+Text Label 10150 4450 2    50   ~ 0
+OMEGA2_JTAG_NRST
+Entry Wire Line
+	9250 4350 9350 4450
+Wire Wire Line
+	9350 4450 10150 4450
+Entry Wire Line
+	9250 4500 9350 4600
+Entry Wire Line
+	9250 4650 9350 4750
+Entry Wire Line
+	9250 4800 9350 4900
+Entry Wire Line
+	9250 4950 9350 5050
+Text Label 10150 4600 2    50   ~ 0
+OMEGA2_JTAG_TRST
+Text Label 10150 4750 2    50   ~ 0
+OMEGA2_JTAG_TDO
+Text Label 10150 4900 2    50   ~ 0
+OMEGA2_JTAG_TDI
+Text Label 10150 5050 2    50   ~ 0
+OMEGA2_JTAG_TMS
+Wire Wire Line
+	9350 4600 10150 4600
+Wire Wire Line
+	10150 4750 9350 4750
+Wire Wire Line
+	9350 4900 10150 4900
+Wire Wire Line
+	10150 5050 9350 5050
+Wire Bus Line
+	9250 3150 9250 3900
+Wire Bus Line
+	9250 4350 9250 4950
+$EndSCHEMATC
