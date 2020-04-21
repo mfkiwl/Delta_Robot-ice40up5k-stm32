@@ -1,4 +1,7 @@
 (sym_lib_table
+  (lib (name BarrelConnector)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/BarrelConnector.lib)(options "")(descr ""))
   (lib (name UNAL_Library)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/UNAL_Library.lib)(options "")(descr ""))
   (lib (name UNAL_Library2)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/UNAL_Library2.lib)(options "")(descr ""))
+  (lib (name MPX10DP)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/MPX10DP.lib)(options "")(descr ""))
+  (lib (name STM32F410CBT6)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/STM32F410CBT6.lib)(options "")(descr ""))
 )

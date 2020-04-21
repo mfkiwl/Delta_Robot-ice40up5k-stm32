@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -35,7 +35,7 @@ Text Label 1150 5300 0    50   ~ 0
 FPGA_SPI_SDO
 Text Label 5350 3000 2    50   ~ 0
 FPGA_CRESET_B
-Text HLabel 8800 1000 0    50   Input ~ 0
+Text HLabel 8800 1000 0    50   BiDi ~ 0
 FPGA_SPI[4..0]
 Wire Bus Line
 	8800 1000 9200 1000
@@ -79,7 +79,7 @@ Wire Wire Line
 	1150 5300 2200 5300
 Wire Wire Line
 	5350 3000 4400 3000
-Text HLabel 8800 2150 0    50   Input ~ 0
+Text HLabel 8800 2150 0    50   BiDi ~ 0
 FPGA_I2C[1..0]
 Wire Bus Line
 	8800 2150 9200 2150
