@@ -709,10 +709,21 @@ Wire Wire Line
 	2850 2600 4350 2600
 Wire Wire Line
 	4350 2700 2850 2700
+Text GLabel 3800 5450 2    50   Input ~ 0
++5V_USB_OMEGA2+
+$Comp
+L BarrelConnector:RJ45_Shielded J?
+U 1 1 5EA5E968
+P 6650 5450
+F 0 "J?" H 6320 5397 50  0000 R CNN
+F 1 "RJ45_Shielded" H 6320 5488 50  0000 R CNN
+F 2 "" V 6650 5475 50  0001 C CNN
+F 3 "~" V 6650 5475 50  0001 C CNN
+	1    6650 5450
+	-1   0    0    1   
+$EndComp
 Wire Bus Line
 	8950 3050 8950 3650
 Wire Bus Line
 	8950 1350 8950 1950
-Text GLabel 3800 5450 2    50   Input ~ 0
-+5V_USB_OMEGA2+
 $EndSCHEMATC

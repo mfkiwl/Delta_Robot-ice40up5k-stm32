@@ -162,9 +162,9 @@ Text Label 7800 4400 2    50   ~ 0
 STM32_UART_RX
 Wire Wire Line
 	7800 4400 6650 4400
-Text Label 5450 4250 2    50   ~ 0
-STM32_UART_RX
 Text Label 5450 4350 2    50   ~ 0
+STM32_UART_RX
+Text Label 5450 4250 2    50   ~ 0
 STM32_UART_TX
 $Comp
 L Connector:USB_A J?
@@ -495,10 +495,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 4450 5450 4450
 Wire Wire Line
-	4450 4350 5450 4350
-Wire Wire Line
-	4450 4250 5450 4250
-Wire Wire Line
 	4450 5350 5450 5350
 Wire Wire Line
 	4450 5450 5450 5450
@@ -757,6 +753,18 @@ F 3 "~" H 3250 1350 50  0001 C CNN
 	1    3250 1350
 	1    0    0    -1  
 $EndComp
+Text Label 5450 5650 2    50   ~ 0
+STM32_I2C_SCL
+Text Label 5450 5750 2    50   ~ 0
+STM32_I2C_SDA
+Wire Wire Line
+	4450 5650 5450 5650
+Wire Wire Line
+	4450 5750 5450 5750
+Wire Wire Line
+	5450 4250 4450 4250
+Wire Wire Line
+	4450 4350 5450 4350
 Wire Bus Line
 	9800 5550 9800 6150
 Wire Bus Line

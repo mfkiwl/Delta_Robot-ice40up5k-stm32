@@ -134,7 +134,7 @@ F 3 "" H 5100 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 4100 5100 4050
-Text Notes 5050 2350 0    50   ~ 0
+Text Notes 5550 2350 0    50   ~ 0
 PRESSURE SENSOR
 Wire Notes Line
 	4150 2200 4150 4400
@@ -144,4 +144,41 @@ Wire Notes Line
 	4150 2200 7650 2200
 Wire Notes Line
 	4150 4400 7650 4400
+$Comp
+L Device:R R?
+U 1 1 5EA1AAAC
+P 6700 3700
+F 0 "R?" H 6770 3746 50  0000 L CNN
+F 1 "20k" H 6770 3655 50  0000 L CNN
+F 2 "" V 6630 3700 50  0001 C CNN
+F 3 "~" H 6700 3700 50  0001 C CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA1B048
+P 6300 3350
+F 0 "R?" V 6093 3350 50  0000 C CNN
+F 1 "10k" V 6184 3350 50  0000 C CNN
+F 2 "" V 6230 3350 50  0001 C CNN
+F 3 "~" H 6300 3350 50  0001 C CNN
+	1    6300 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3350 6150 3350
+Connection ~ 5650 3350
+Wire Wire Line
+	6450 3350 6700 3350
+Wire Wire Line
+	6700 3550 6700 3350
+Connection ~ 6700 3350
+Wire Wire Line
+	6700 3350 6900 3350
+Wire Wire Line
+	5650 4050 6700 4050
+Wire Wire Line
+	6700 4050 6700 3850
+Connection ~ 5650 4050
 $EndSCHEMATC
