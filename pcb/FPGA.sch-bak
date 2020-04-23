@@ -576,6 +576,14 @@ Wire Notes Line
 	7350 4150 7350 6250
 Wire Notes Line
 	10600 4150 10600 6250
+Text HLabel 4700 4750 2    50   Output ~ 0
+FPGA_SOLENOID1
+Text HLabel 4700 4850 2    50   Output ~ 0
+FPGA_SOLENOID2
+Wire Wire Line
+	4700 4750 4400 4750
+Wire Wire Line
+	4400 4850 4700 4850
 Wire Bus Line
 	9200 1000 9200 1600
 Wire Bus Line

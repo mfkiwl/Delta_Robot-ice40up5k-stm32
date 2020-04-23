@@ -216,11 +216,11 @@ Wire Wire Line
 Wire Bus Line
 	8950 2600 8950 2450
 Text HLabel 8550 3050 0    50   BiDi ~ 0
-Omega2_JTAG[5..0]
+Omega2_JTAG[4..0]
 Wire Bus Line
 	8550 3050 8950 3050
-Text Label 9850 3150 2    50   ~ 0
-OMEGA2_JTAG_NRST
+Text Label 9850 3300 2    50   ~ 0
+OMEGA2_JTAG_TCK
 Entry Wire Line
 	8950 3050 9050 3150
 Wire Wire Line
@@ -233,13 +233,13 @@ Entry Wire Line
 	8950 3500 9050 3600
 Entry Wire Line
 	8950 3650 9050 3750
-Text Label 9850 3300 2    50   ~ 0
-OMEGA2_JTAG_TRST
-Text Label 9850 3450 2    50   ~ 0
-OMEGA2_JTAG_TDO
-Text Label 9850 3600 2    50   ~ 0
-OMEGA2_JTAG_TDI
 Text Label 9850 3750 2    50   ~ 0
+OMEGA2_JTAG_TRST
+Text Label 9850 3600 2    50   ~ 0
+OMEGA2_JTAG_TDO
+Text Label 9850 3450 2    50   ~ 0
+OMEGA2_JTAG_TDI
+Text Label 9850 3150 2    50   ~ 0
 OMEGA2_JTAG_TMS
 Wire Wire Line
 	9050 3300 9850 3300
@@ -249,13 +249,13 @@ Wire Wire Line
 	9050 3600 9850 3600
 Wire Wire Line
 	9850 3750 9050 3750
-Text Label 2850 2500 0    50   ~ 0
+Text Label 2850 2700 0    50   ~ 0
 OMEGA2_JTAG_NRST
-Text Label 2850 2400 0    50   ~ 0
+Text Label 2850 2600 0    50   ~ 0
 OMEGA2_JTAG_TRST
-Text Label 2850 2300 0    50   ~ 0
+Text Label 2850 2500 0    50   ~ 0
 OMEGA2_JTAG_TDO
-Text Label 2850 3500 0    50   ~ 0
+Text Label 2850 2400 0    50   ~ 0
 OMEGA2_JTAG_TDI
 Text Label 2850 2200 0    50   ~ 0
 OMEGA2_JTAG_TMS
@@ -276,8 +276,6 @@ Text Label 2850 3600 0    50   ~ 0
 OMEGA2_SPI_RST
 Text Label 2850 3200 0    50   ~ 0
 OMEGA2_SPI_CS
-Wire Wire Line
-	2850 3500 4350 3500
 Wire Wire Line
 	2850 2200 4350 2200
 Wire Wire Line
@@ -339,17 +337,6 @@ Wire Wire Line
 Connection ~ 1950 6900
 Wire Wire Line
 	1950 6900 1950 6800
-$Comp
-L power:+5V #PWR?
-U 1 1 5EA3C3F5
-P 3800 5450
-F 0 "#PWR?" H 3800 5300 50  0001 C CNN
-F 1 "+5V" V 3815 5578 50  0000 L CNN
-F 2 "" H 3800 5450 50  0001 C CNN
-F 3 "" H 3800 5450 50  0001 C CNN
-	1    3800 5450
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:L L1
 U 1 1 5EA3CB7B
@@ -716,8 +703,16 @@ Text Notes 1950 5150 2    50   ~ 0
 USB
 Text Notes 1800 1550 2    50   ~ 0
 RTC????\n
+Text Label 2850 2300 0    50   ~ 0
+OMEGA2_JTAG_TCK
+Wire Wire Line
+	2850 2600 4350 2600
+Wire Wire Line
+	4350 2700 2850 2700
 Wire Bus Line
 	8950 3050 8950 3650
 Wire Bus Line
 	8950 1350 8950 1950
+Text GLabel 3800 5450 2    50   Input ~ 0
++5V_USB_OMEGA2+
 $EndSCHEMATC
