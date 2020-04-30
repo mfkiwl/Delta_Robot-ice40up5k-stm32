@@ -308,7 +308,7 @@ U 1 1 5EA38EF0
 P 1950 6350
 F 0 "J?" H 2007 6817 50  0000 C CNN
 F 1 "USB_A" H 2007 6726 50  0000 C CNN
-F 2 "" H 2100 6300 50  0001 C CNN
+F 2 "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 2100 6300 50  0001 C CNN
 F 3 " ~" H 2100 6300 50  0001 C CNN
 	1    1950 6350
 	1    0    0    -1  
@@ -529,9 +529,11 @@ L UNAL_Library:Switch_SW_Push SW?
 U 1 1 5EA9B0C3
 P 8050 5550
 F 0 "SW?" V 8096 5502 50  0000 R CNN
-F 1 "SW_Push" V 8005 5502 50  0000 R CNN
-F 2 "" H 8050 5750 50  0001 C CNN
-F 3 "" H 8050 5750 50  0001 C CNN
+F 1 "TL3305A" V 8005 5502 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 8050 5750 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 8050 5750 50  0001 C CNN
+F 4 "EG5353CT-ND" V 8050 5550 50  0001 C CNN "Digikey"
+F 5 "http://spec_sheets.e-switch.com/specs/P010471.pdf" V 8050 5550 50  0001 C CNN "Drawing"
 	1    8050 5550
 	0    -1   -1   0   
 $EndComp
@@ -601,17 +603,6 @@ Wire Wire Line
 	8600 4150 8600 5300
 Text GLabel 9100 4750 1    50   Input ~ 0
 +3V3_OMEGA2+
-$Comp
-L UNAL_Library:Switch_SW_Push SW?
-U 1 1 5EAAECF3
-P 9100 5550
-F 0 "SW?" V 9146 5502 50  0000 R CNN
-F 1 "SW_Push" V 9055 5502 50  0000 R CNN
-F 2 "" H 9100 5750 50  0001 C CNN
-F 3 "" H 9100 5750 50  0001 C CNN
-	1    9100 5550
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5EAAECF9
@@ -698,8 +689,6 @@ Wire Notes Line
 	1650 7400 1650 5000
 Text Notes 1950 5150 2    50   ~ 0
 USB
-Text Notes 1800 1550 2    50   ~ 0
-RTC????\n
 Text Label 2850 2300 0    50   ~ 0
 OMEGA2_JTAG_TCK
 Wire Wire Line
@@ -708,6 +697,19 @@ Wire Wire Line
 	4350 2700 2850 2700
 Text GLabel 3800 5450 2    50   Input ~ 0
 +5V_USB_OMEGA2+
+$Comp
+L UNAL_Library:Switch_SW_Push SW?
+U 1 1 5EABFBAA
+P 9100 5550
+F 0 "SW?" V 9146 5502 50  0000 R CNN
+F 1 "TL3305A" V 9055 5502 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 9100 5750 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 9100 5750 50  0001 C CNN
+F 4 "EG5353CT-ND" V 9100 5550 50  0001 C CNN "Digikey"
+F 5 "http://spec_sheets.e-switch.com/specs/P010471.pdf" V 9100 5550 50  0001 C CNN "Drawing"
+	1    9100 5550
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	8950 3050 8950 3650
 Wire Bus Line
