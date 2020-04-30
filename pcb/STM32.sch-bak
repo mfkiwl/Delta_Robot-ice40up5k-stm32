@@ -174,7 +174,7 @@ AR Path="/5E9CBA65/5EA15810" Ref="J?"  Part="1"
 AR Path="/5EA31305/5EA15810" Ref="J?"  Part="1" 
 F 0 "J?" H 7707 2367 50  0000 C CNN
 F 1 "USB_A" H 7707 2276 50  0000 C CNN
-F 2 "" H 7800 1850 50  0001 C CNN
+F 2 "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 7800 1850 50  0001 C CNN
 F 3 " ~" H 7800 1850 50  0001 C CNN
 	1    7650 1900
 	1    0    0    -1  
