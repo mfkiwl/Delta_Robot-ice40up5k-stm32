@@ -292,6 +292,7 @@ F 4 "1.4" H 4100 3950 50  0001 L BNN "Field4"
 F 5 "Lattice Semiconductor" H 4100 3950 50  0001 L BNN "Field5"
 F 6 "10381" H 4100 3950 50  0001 L BNN "Field6"
 F 7 "https://www.digikey.com/product-detail/en/lattice-semiconductor-corporation/ICE40UP5K-SG48I/220-2212-1-ND/9563352" H 4100 3950 50  0001 C CNN "Digikey"
+F 8 "https://www.mouser.com/datasheet/2/225/FPGAUG0200110-1324499.pdf" H 4100 3950 50  0001 C CNN "Breakout board"
 	1    4100 3950
 	1    0    0    -1  
 $EndComp
