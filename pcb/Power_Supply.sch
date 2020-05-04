@@ -785,4 +785,101 @@ Wire Wire Line
 	4650 6550 4300 6550
 Connection ~ 4300 6550
 Connection ~ 2000 6550
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EAE1D2A
+P 6700 1350
+F 0 "H1" H 6800 1399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6800 1308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6700 1350 50  0001 C CNN
+F 3 "~" H 6700 1350 50  0001 C CNN
+	1    6700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 5EAE2991
+P 7250 1750
+F 0 "#PWR056" H 7250 1500 50  0001 C CNN
+F 1 "GND" H 7255 1577 50  0000 C CNN
+F 2 "" H 7250 1750 50  0001 C CNN
+F 3 "" H 7250 1750 50  0001 C CNN
+	1    7250 1750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6600 1550 0    50   Input ~ 0
+GND_CASE
+$Comp
+L Device:L L?
+U 1 1 5EB36FCE
+P 6950 1750
+AR Path="/5E9CBA65/5EB36FCE" Ref="L?"  Part="1" 
+AR Path="/5EA31305/5EB36FCE" Ref="L?"  Part="1" 
+AR Path="/5E9781D0/5EB36FCE" Ref="L10"  Part="1" 
+F 0 "L10" V 6769 1750 50  0000 C CNN
+F 1 "742792651" V 6860 1750 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 1750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/742792651.pdf" H 6950 1750 50  0001 C CNN
+F 4 "732-1593-1-ND" V 6950 1750 50  0001 C CNN "Digikey"
+	1    6950 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5EB48967
+P 7750 1350
+F 0 "H2" H 7850 1399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7850 1308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7750 1350 50  0001 C CNN
+F 3 "~" H 7750 1350 50  0001 C CNN
+	1    7750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5EB4A979
+P 8700 1350
+F 0 "H3" H 8800 1399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8800 1308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8700 1350 50  0001 C CNN
+F 3 "~" H 8700 1350 50  0001 C CNN
+	1    8700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5EB4CA91
+P 9700 1350
+F 0 "H4" H 9800 1399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9800 1308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9700 1350 50  0001 C CNN
+F 3 "~" H 9700 1350 50  0001 C CNN
+	1    9700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1550 6700 1550
+Wire Wire Line
+	9700 1550 9700 1450
+Wire Wire Line
+	8700 1450 8700 1550
+Connection ~ 8700 1550
+Wire Wire Line
+	8700 1550 9700 1550
+Wire Wire Line
+	7750 1450 7750 1550
+Connection ~ 7750 1550
+Wire Wire Line
+	7750 1550 8700 1550
+Wire Wire Line
+	6700 1450 6700 1550
+Connection ~ 6700 1550
+Wire Wire Line
+	6700 1550 7750 1550
+Wire Wire Line
+	7250 1750 7100 1750
+Wire Wire Line
+	6800 1750 6700 1750
+Wire Wire Line
+	6700 1750 6700 1550
 $EndSCHEMATC

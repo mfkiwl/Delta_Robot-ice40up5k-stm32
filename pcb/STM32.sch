@@ -182,25 +182,16 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EA15816
-P 7650 2550
+P 7650 2900
 AR Path="/5E9CBA65/5EA15816" Ref="#PWR?"  Part="1" 
 AR Path="/5EA31305/5EA15816" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 7650 2300 50  0001 C CNN
-F 1 "GND" H 7655 2377 50  0000 C CNN
-F 2 "" H 7650 2550 50  0001 C CNN
-F 3 "" H 7650 2550 50  0001 C CNN
-	1    7650 2550
+F 0 "#PWR034" H 7650 2650 50  0001 C CNN
+F 1 "GND" H 7655 2727 50  0000 C CNN
+F 2 "" H 7650 2900 50  0001 C CNN
+F 3 "" H 7650 2900 50  0001 C CNN
+	1    7650 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7650 2550 7650 2450
-Wire Wire Line
-	7650 2450 7550 2450
-Wire Wire Line
-	7550 2450 7550 2350
-Connection ~ 7650 2450
-Wire Wire Line
-	7650 2450 7650 2350
 $Comp
 L Device:L L?
 U 1 1 5EA15827
@@ -251,7 +242,7 @@ AR Path="/5E9CBA65/5EA1583A" Ref="D?"  Part="1"
 AR Path="/5EA31305/5EA1583A" Ref="D4"  Part="1" 
 F 0 "D4" V 8004 1329 50  0000 L CNN
 F 1 "1N4733AW" V 8095 1329 50  0000 L CNN
-F 2 "" H 8050 1250 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 8050 1250 50  0001 C CNN
 F 3 "~" H 8050 1250 50  0001 C CNN
 	1    8050 1250
 	0    1    1    0   
@@ -297,19 +288,6 @@ $EndComp
 Wire Wire Line
 	9000 1550 9000 1450
 Connection ~ 9000 1450
-$Comp
-L UNAL_Library:Power_Protection_SP0502BAHT D?
-U 1 1 5EA15856
-P 8250 2300
-AR Path="/5E9CBA65/5EA15856" Ref="D?"  Part="1" 
-AR Path="/5EA31305/5EA15856" Ref="D5"  Part="1" 
-F 0 "D5" H 8455 2346 50  0000 L CNN
-F 1 "Power_Protection_SP0502BAHT" H 8455 2255 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8475 2250 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8375 2425 50  0001 C CNN
-	1    8250 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 1700 8050 1700
 $Comp
@@ -320,7 +298,7 @@ AR Path="/5E9CBA65/5EA1585D" Ref="L?"  Part="1"
 AR Path="/5EA31305/5EA1585D" Ref="L6"  Part="1" 
 F 0 "L6" V 9450 1900 50  0000 C CNN
 F 1 "SRF2012-900YA" V 9550 1900 50  0000 C CNN
-F 2 "" H 9500 1900 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 1900 50  0001 C CNN
 F 3 "~" H 9500 1900 50  0001 C CNN
 	1    9500 1900
 	0    1    1    0   
@@ -333,7 +311,7 @@ AR Path="/5E9CBA65/5EA15863" Ref="L?"  Part="1"
 AR Path="/5EA31305/5EA15863" Ref="L4"  Part="1" 
 F 0 "L4" V 8800 2000 50  0000 C CNN
 F 1 "SRF2012-900YA" V 8950 2000 50  0000 C CNN
-F 2 "" H 8850 2000 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8850 2000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/SRF2012A.pdf" H 8850 2000 50  0001 C CNN
 F 4 "SRF2012-900YACT-ND" V 8850 2000 50  0001 C CNN "Digikey"
 	1    8850 2000
@@ -409,14 +387,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 1700 8050 1450
 Connection ~ 8050 1450
-Wire Notes Line
-	7350 550  11150 550 
-Wire Notes Line
-	11150 550  11150 2950
-Wire Notes Line
-	11150 2950 7350 2950
-Wire Notes Line
-	7350 2950 7350 550 
 Text Notes 7650 700  2    50   ~ 0
 USB
 Text Label 5450 4450 2    50   ~ 0
@@ -529,37 +499,14 @@ F 3 "~" H 1500 3350 50  0001 C CNN
 $EndComp
 Text GLabel 1300 3300 1    50   Input ~ 0
 +3.3V_ESP32
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5EABBF78
-P 2100 3600
-F 0 "SW1" V 2054 3748 50  0000 L CNN
-F 1 "SW_Push" V 2145 3748 50  0000 L CNN
-F 2 "" H 2100 3800 50  0001 C CNN
-F 3 "~" H 2100 3800 50  0001 C CNN
-	1    2100 3600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2750 3750 3050 3750
 Wire Wire Line
-	2100 3400 2100 3350
-Wire Wire Line
-	2100 3350 3050 3350
-Wire Wire Line
 	1700 3450 1700 3350
-Wire Wire Line
-	1700 3350 2100 3350
-Connection ~ 2100 3350
 Wire Wire Line
 	1700 3750 1700 3850
 Wire Wire Line
-	1700 3850 2100 3850
-Wire Wire Line
-	2100 3850 2100 3800
-Wire Wire Line
 	1650 3350 1700 3350
-Connection ~ 1700 3350
 Wire Wire Line
 	1350 3350 1300 3350
 Wire Wire Line
@@ -767,6 +714,90 @@ Wire Wire Line
 	5450 4250 4450 4250
 Wire Wire Line
 	4450 4350 5450 4350
+$Comp
+L Device:L L?
+U 1 1 5EAEF114
+P 7550 2550
+AR Path="/5E9CBA65/5EAEF114" Ref="L?"  Part="1" 
+AR Path="/5EA31305/5EAEF114" Ref="L11"  Part="1" 
+F 0 "L11" V 7369 2550 50  0000 C CNN
+F 1 "742792651" V 7460 2550 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7550 2550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/742792651.pdf" H 7550 2550 50  0001 C CNN
+F 4 "732-1593-1-ND" V 7550 2550 50  0001 C CNN "Digikey"
+	1    7550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2300 7650 2800
+Wire Wire Line
+	7550 2800 7650 2800
+Connection ~ 7650 2800
+Wire Wire Line
+	7650 2800 7650 2900
+Wire Wire Line
+	7550 2700 7550 2800
+Wire Wire Line
+	7550 2400 7550 2300
+Wire Notes Line
+	7200 550  7200 3200
+Wire Notes Line
+	7200 3200 11150 3200
+Wire Notes Line
+	7200 550  11150 550 
+Wire Notes Line
+	11150 550  11150 3200
+Wire Wire Line
+	1700 3350 2500 3350
+Connection ~ 1700 3350
+Wire Wire Line
+	2500 3400 2500 3350
+Connection ~ 2500 3350
+Wire Wire Line
+	2500 3350 3050 3350
+Wire Wire Line
+	1700 3850 2500 3850
+Wire Wire Line
+	2500 3850 2500 3800
+$Comp
+L power:GND #PWR0101
+U 1 1 5EBC21FF
+P 1700 3900
+F 0 "#PWR0101" H 1700 3650 50  0001 C CNN
+F 1 "GND" H 1705 3727 50  0000 C CNN
+F 2 "" H 1700 3900 50  0001 C CNN
+F 3 "" H 1700 3900 50  0001 C CNN
+	1    1700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3900 1700 3850
+Connection ~ 1700 3850
+$Comp
+L Power_Protection:NUP2105L D7
+U 1 1 5EBD71CD
+P 8250 2300
+F 0 "D7" H 8455 2346 50  0000 L CNN
+F 1 "NUP2105L" H 8455 2255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8475 2250 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 8375 2425 50  0001 C CNN
+F 4 "SZNUP2105LT1GOSCT-ND" H 8250 2300 50  0001 C CNN "Digikey"
+	1    8250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5EBE367C
+P 2500 3600
+F 0 "SW2" V 2546 3552 50  0000 R CNN
+F 1 "TL3305A" V 2455 3552 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 2500 3800 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 2500 3800 50  0001 C CNN
+F 4 "EG5353CT-ND" V 2500 3600 50  0001 C CNN "Digikey"
+F 5 "http://spec_sheets.e-switch.com/specs/P010471.pdf" V 2500 3600 50  0001 C CNN "Drawing"
+	1    2500 3600
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	9800 5550 9800 6150
 Wire Bus Line

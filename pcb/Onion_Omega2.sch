@@ -303,36 +303,16 @@ OMEGA2_USB_D+
 Wire Wire Line
 	2850 4000 4350 4000
 $Comp
-L Connector:USB_A J3
-U 1 1 5EA38EF0
-P 1950 6350
-F 0 "J3" H 2007 6817 50  0000 C CNN
-F 1 "USB_A" H 2007 6726 50  0000 C CNN
-F 2 "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 2100 6300 50  0001 C CNN
-F 3 " ~" H 2100 6300 50  0001 C CNN
-	1    1950 6350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR037
 U 1 1 5EA3A178
-P 1950 7000
-F 0 "#PWR037" H 1950 6750 50  0001 C CNN
-F 1 "GND" H 1955 6827 50  0000 C CNN
-F 2 "" H 1950 7000 50  0001 C CNN
-F 3 "" H 1950 7000 50  0001 C CNN
-	1    1950 7000
+P 1950 6800
+F 0 "#PWR037" H 1950 6550 50  0001 C CNN
+F 1 "GND" H 1955 6627 50  0000 C CNN
+F 2 "" H 1950 6800 50  0001 C CNN
+F 3 "" H 1950 6800 50  0001 C CNN
+	1    1950 6800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 7000 1950 6900
-Wire Wire Line
-	1950 6900 1850 6900
-Wire Wire Line
-	1850 6900 1850 6800
-Connection ~ 1950 6900
-Wire Wire Line
-	1950 6900 1950 6800
 $Comp
 L Device:L L8
 U 1 1 5EA3CB7B
@@ -375,7 +355,7 @@ U 1 1 5EA449F0
 P 2350 5700
 F 0 "D6" V 2304 5779 50  0000 L CNN
 F 1 "1N4733AW" V 2395 5779 50  0000 L CNN
-F 2 "" H 2350 5700 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2350 5700 50  0001 C CNN
 F 3 "~" H 2350 5700 50  0001 C CNN
 	1    2350 5700
 	0    1    1    0   
@@ -419,26 +399,15 @@ $EndComp
 Wire Wire Line
 	3300 6000 3300 5900
 Connection ~ 3300 5900
-$Comp
-L UNAL_Library:Power_Protection_SP0502BAHT D7
-U 1 1 5EA58850
-P 2550 6750
-F 0 "D7" H 2755 6796 50  0000 L CNN
-F 1 "Power_Protection_SP0502BAHT" H 2755 6705 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2775 6700 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2675 6875 50  0001 C CNN
-	1    2550 6750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 6150 2350 6150
 $Comp
 L Device:L L9
 U 1 1 5EA5F3A2
 P 3800 6350
-F 0 "L9" V 3750 6350 50  0000 C CNN
-F 1 "SRF2012-900YA" V 3850 6350 50  0000 C CNN
-F 2 "" H 3800 6350 50  0001 C CNN
+F 0 "L9" V 3850 6350 50  0000 C CNN
+F 1 "SRF2012-900YA" V 3750 6350 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3800 6350 50  0001 C CNN
 F 3 "~" H 3800 6350 50  0001 C CNN
 	1    3800 6350
 	0    1    1    0   
@@ -449,7 +418,7 @@ U 1 1 5EA5FCE5
 P 3150 6450
 F 0 "L7" V 3100 6450 50  0000 C CNN
 F 1 "SRF2012-900YA" V 3250 6450 50  0000 C CNN
-F 2 "" H 3150 6450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 6450 50  0001 C CNN
 F 3 "~" H 3150 6450 50  0001 C CNN
 	1    3150 6450
 	0    1    1    0   
@@ -524,19 +493,6 @@ Wire Wire Line
 	5750 2600 6800 2600
 Text GLabel 8050 4750 1    50   Input ~ 0
 +3V3_OMEGA2+
-$Comp
-L UNAL_Library:Switch_SW_Push SW2
-U 1 1 5EA9B0C3
-P 8050 5550
-F 0 "SW2" V 8096 5502 50  0000 R CNN
-F 1 "TL3305A" V 8005 5502 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 8050 5750 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 8050 5750 50  0001 C CNN
-F 4 "EG5353CT-ND" V 8050 5550 50  0001 C CNN "Digikey"
-F 5 "http://spec_sheets.e-switch.com/specs/P010471.pdf" V 8050 5550 50  0001 C CNN "Drawing"
-	1    8050 5550
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R R18
 U 1 1 5EA9BC01
@@ -679,14 +635,6 @@ Wire Wire Line
 	5750 3100 6150 3100
 Text HLabel 6150 3100 2    50   Output ~ 0
 ONION_SER1_TX
-Wire Notes Line
-	1650 5000 5450 5000
-Wire Notes Line
-	5450 5000 5450 7400
-Wire Notes Line
-	5450 7400 1650 7400
-Wire Notes Line
-	1650 7400 1650 5000
 Text Notes 1950 5150 2    50   ~ 0
 USB
 Text Label 2850 2300 0    50   ~ 0
@@ -698,10 +646,62 @@ Wire Wire Line
 Text GLabel 3800 5450 2    50   Input ~ 0
 +5V_USB_OMEGA2+
 $Comp
-L UNAL_Library:Switch_SW_Push SW3
-U 1 1 5EABFBAA
+L Connector:USB_A J3
+U 1 1 5EA38EF0
+P 1950 6350
+F 0 "J3" H 2007 6817 50  0000 C CNN
+F 1 "USB_A" H 2007 6726 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked" H 2100 6300 50  0001 C CNN
+F 3 " ~" H 2100 6300 50  0001 C CNN
+	1    1950 6350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1550 7550 5450 7550
+Wire Notes Line
+	5450 5000 5450 7550
+Text GLabel 1850 7050 3    50   Input ~ 0
+GND_CASE
+Wire Wire Line
+	1950 6800 1950 6750
+Wire Wire Line
+	1850 6750 1850 7050
+Wire Notes Line
+	1550 7550 1550 5000
+Wire Notes Line
+	1550 5000 5450 5000
+$Comp
+L Power_Protection:NUP2105L D?
+U 1 1 5EBDBB45
+P 2550 6750
+AR Path="/5EA31305/5EBDBB45" Ref="D?"  Part="1" 
+AR Path="/5E9CBA65/5EBDBB45" Ref="D12"  Part="1" 
+F 0 "D12" H 2755 6796 50  0000 L CNN
+F 1 "NUP2105L" H 2755 6705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2775 6700 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 2675 6875 50  0001 C CNN
+F 4 "SZNUP2105LT1GOSCT-ND" H 2550 6750 50  0001 C CNN "Digikey"
+	1    2550 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5EBDED82
+P 8050 5550
+F 0 "SW3" V 8096 5502 50  0000 R CNN
+F 1 "TL3305A" V 8005 5502 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 8050 5750 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 8050 5750 50  0001 C CNN
+F 4 "EG5353CT-ND" V 8050 5550 50  0001 C CNN "Digikey"
+F 5 "http://spec_sheets.e-switch.com/specs/P010471.pdf" V 8050 5550 50  0001 C CNN "Drawing"
+	1    8050 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5EBE00E2
 P 9100 5550
-F 0 "SW3" V 9146 5502 50  0000 R CNN
+F 0 "SW4" V 9146 5502 50  0000 R CNN
 F 1 "TL3305A" V 9055 5502 50  0000 R CNN
 F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 9100 5750 50  0001 C CNN
 F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 9100 5750 50  0001 C CNN
