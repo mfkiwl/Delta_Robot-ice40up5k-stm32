@@ -1,36 +1,29 @@
-7870441390249
-SMD
-DIL6-SMD
-<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html
-
+6273842481404
+TH
+BARREL_JACK
+DC Barrel Jack
+Power Jack
 0
-6
-6
-SMD
-MP3V5050
-
-
+3
+3
+TH
+ONION-OMEGA
+FOOTPRINT FOR ONION OMEGA
+FOOTPRINT FOR ONION OMEGA
 0
-8
-8
-SMD
-MP3V5050VC6U
-SOP, 8 Pin (http://www.ti.com/lit/ds/symlink/iso1050.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOP SO
-0
-8
-8
-SMD
-QFN50P700X700X100-49N
+32
+32
+TH
+ONION-OMEGA2S
 
 
 0
-49
-49
-SMD
-STM32F410CBT
+96
+64
+TH
+ONION_OMEGA2
 
 
 0
-48
-48
+32
+32
