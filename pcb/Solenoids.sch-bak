@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -18,7 +18,7 @@ L Device:R R20
 U 1 1 5E971BD3
 P 1950 3400
 F 0 "R20" V 1743 3400 50  0000 C CNN
-F 1 "100" V 1834 3400 50  0000 C CNN
+F 1 "330" V 1834 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 3400 50  0001 C CNN
 F 3 "~" H 1950 3400 50  0001 C CNN
 	1    1950 3400
@@ -209,7 +209,7 @@ L Device:R R23
 U 1 1 5EAC306C
 P 7050 3400
 F 0 "R23" V 6843 3400 50  0000 C CNN
-F 1 "100" V 6934 3400 50  0000 C CNN
+F 1 "330" V 6934 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 3400 50  0001 C CNN
 F 3 "~" H 7050 3400 50  0001 C CNN
 	1    7050 3400
@@ -403,7 +403,7 @@ U 1 1 5E96D56E
 P 5000 4250
 F 0 "J4" H 5080 4242 50  0000 L CNN
 F 1 "Conn_01x02" H 5080 4151 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 5000 4250 50  0001 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 5000 4250 50  0001 C CNN
 F 3 "~" H 5000 4250 50  0001 C CNN
 	1    5000 4250
 	1    0    0    1   
@@ -414,7 +414,7 @@ U 1 1 5EAC30A8
 P 10100 4150
 F 0 "J5" H 10180 4142 50  0000 L CNN
 F 1 "Conn_01x02" H 10180 4051 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 10100 4150 50  0001 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 10100 4150 50  0001 C CNN
 F 3 "~" H 10100 4150 50  0001 C CNN
 	1    10100 4150
 	1    0    0    -1  

@@ -3,4 +3,7 @@
   (lib (name MPX10DP)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/MPX10DP.lib)(options "")(descr ""))
   (lib (name STM32F410CBT6)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/STM32F410CBT6.lib)(options "")(descr ""))
   (lib (name ICE40UP5K-SG48ITR50)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/ICE40UP5K-SG48ITR50.lib)(options "")(descr ""))
+  (lib (name 47590-0001)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/47590-0001.lib)(options "")(descr ""))
+  (lib (name ESDA6V1BC6)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/ESDA6V1BC6.lib)(options "")(descr ""))
+  (lib (name STMPS2151STR)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/STMPS2151STR.lib)(options "")(descr ""))
 )

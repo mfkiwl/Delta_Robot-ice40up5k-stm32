@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -186,7 +186,7 @@ $EndComp
 Wire Wire Line
 	5200 8800 5350 8800
 Text GLabel 5450 8800 2    50   Input ~ 0
-+3V3_FPGA
++3V3
 Text Label 5400 8500 2    50   ~ 0
 FPGA_SPI_SDO
 Wire Wire Line
@@ -214,7 +214,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 8900 4700 8900
 Text GLabel 4150 7650 0    50   Input ~ 0
-+3V3_FPGA
++3V3
 $Comp
 L Device:C C16
 U 1 1 5EC3E0FE
@@ -265,7 +265,7 @@ F 3 "~" H 2900 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2900 8300 1    50   Input ~ 0
-+3V3_FPGA
++3V3
 Wire Wire Line
 	2900 8800 2900 8650
 Wire Wire Line
@@ -460,7 +460,7 @@ $EndComp
 Wire Wire Line
 	10300 4500 10300 4450
 Text GLabel 10600 3950 2    50   Input ~ 0
-+3V3_FPGA
++3V3
 Text Label 6250 2250 2    50   ~ 0
 FPGA_VCC
 Text Label 8400 1650 0    50   ~ 0
@@ -519,7 +519,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4950 8900 4950
 Text GLabel 10600 4950 2    50   Input ~ 0
-+3V3_FPGA
++3V3
 Connection ~ 9800 5500
 Wire Wire Line
 	9800 5500 9800 5600
@@ -642,7 +642,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 6050 9400 6050
 Text GLabel 10650 6050 2    50   Input ~ 0
-+3V3_FPGA
++3V3
 Connection ~ 9850 6600
 Wire Wire Line
 	9850 6600 9850 6700
@@ -740,7 +740,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 7100 9400 7100
 Text GLabel 10650 7100 2    50   Input ~ 0
-+3V3_FPGA
++3V3
 Connection ~ 9850 7650
 Wire Wire Line
 	9850 7650 9850 7750
@@ -825,84 +825,46 @@ Wire Wire Line
 	8100 7100 8950 7100
 Connection ~ 8950 7100
 $Comp
-L power:GND #PWR?
-U 1 1 5ED99A98
-P 10650 8450
-AR Path="/5E9CBA65/5ED99A98" Ref="#PWR?"  Part="1" 
-AR Path="/5E9DAA0B/5ED99A98" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 10650 8200 50  0001 C CNN
-F 1 "GND" H 10655 8277 50  0000 C CNN
-F 2 "" H 10650 8450 50  0001 C CNN
-F 3 "" H 10650 8450 50  0001 C CNN
-	1    10650 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5ED99AA1
-P 10300 8400
-AR Path="/5E9CBA65/5ED99AA1" Ref="SW?"  Part="1" 
-AR Path="/5E9DAA0B/5ED99AA1" Ref="SW1"  Part="1" 
-F 0 "SW1" H 10400 8200 50  0000 R CNN
-F 1 "TL3305A" H 10450 8300 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 10300 8600 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 10300 8600 50  0001 C CNN
-F 4 "EG5353CT-ND" V 10300 8400 50  0001 C CNN "Digikey"
-F 5 "http://spec_sheets.e-switch.com/specs/P010471.pdf" V 10300 8400 50  0001 C CNN "Drawing"
-	1    10300 8400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 8450 10650 8400
-Wire Wire Line
-	10650 8400 10500 8400
-$Comp
 L Device:R R28
 U 1 1 5EDCD2B4
-P 10450 9350
-F 0 "R28" V 10243 9350 50  0000 C CNN
-F 1 "2.2k" V 10334 9350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10380 9350 50  0001 C CNN
-F 3 "~" H 10450 9350 50  0001 C CNN
-	1    10450 9350
+P 10450 8600
+F 0 "R28" V 10243 8600 50  0000 C CNN
+F 1 "2.2k" V 10334 8600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10380 8600 50  0001 C CNN
+F 3 "~" H 10450 8600 50  0001 C CNN
+	1    10450 8600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D5
 U 1 1 5EDCD2BA
-P 10450 9800
-F 0 "D5" H 10443 9545 50  0000 C CNN
-F 1 "LED" H 10443 9636 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10450 9800 50  0001 C CNN
-F 3 "~" H 10450 9800 50  0001 C CNN
-	1    10450 9800
+P 10450 9050
+F 0 "D5" H 10443 8795 50  0000 C CNN
+F 1 "LED" H 10443 8886 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10450 9050 50  0001 C CNN
+F 3 "~" H 10450 9050 50  0001 C CNN
+	1    10450 9050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR061
 U 1 1 5EDCD2C0
-P 10450 10050
-F 0 "#PWR061" H 10450 9800 50  0001 C CNN
-F 1 "GND" H 10455 9877 50  0000 C CNN
-F 2 "" H 10450 10050 50  0001 C CNN
-F 3 "" H 10450 10050 50  0001 C CNN
-	1    10450 10050
+P 10450 9300
+F 0 "#PWR061" H 10450 9050 50  0001 C CNN
+F 1 "GND" H 10455 9127 50  0000 C CNN
+F 2 "" H 10450 9300 50  0001 C CNN
+F 3 "" H 10450 9300 50  0001 C CNN
+	1    10450 9300
 	1    0    0    -1  
 $EndComp
-Text Label 6250 2950 2    50   ~ 0
-FPGA_CRESET_B
-Text Label 9400 8400 0    50   ~ 0
-FPGA_CRESET_B
-Wire Wire Line
-	10100 8400 9400 8400
 Text Label 6250 3050 2    50   ~ 0
 FPGA_CDONE
-Text Label 9350 9550 0    50   ~ 0
+Text Label 9350 8800 0    50   ~ 0
 FPGA_CDONE
 Wire Wire Line
-	10450 9650 10450 9550
+	10450 8900 10450 8800
 Wire Wire Line
-	10450 10050 10450 9950
+	10450 9300 10450 9200
 Wire Wire Line
 	6250 4350 5200 4350
 Wire Wire Line
@@ -930,8 +892,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 2750 6250 2750
 Wire Wire Line
-	5200 2950 6250 2950
-Wire Wire Line
 	5200 3050 6250 3050
 Text Label 6250 3250 2    50   ~ 0
 FPGA_CTRL_NOE
@@ -957,27 +917,31 @@ Text Label 6250 3950 2    50   ~ 0
 FPGA_CTRL_FMC_CLK
 Wire Wire Line
 	5200 3950 6250 3950
-Text HLabel 2400 4850 0    50   Output ~ 0
+Text HLabel 2400 2950 0    50   Output ~ 0
 FPGA_SOLENOID1
-Text HLabel 2400 5050 0    50   Output ~ 0
+Text HLabel 2400 3250 0    50   Output ~ 0
 FPGA_SOLENOID2
 Wire Wire Line
-	10450 9550 9350 9550
+	10450 8800 9350 8800
 Wire Wire Line
-	10450 9550 10450 9500
-Connection ~ 10450 9550
-Text GLabel 10650 9100 2    50   Input ~ 0
-+3V3_FPGA
+	10450 8800 10450 8750
+Connection ~ 10450 8800
+Text GLabel 10650 8350 2    50   Input ~ 0
++3V3
 Wire Wire Line
-	10450 9200 10450 9100
+	10450 8450 10450 8350
 Wire Wire Line
-	10450 9100 10650 9100
+	10450 8350 10650 8350
 Wire Wire Line
 	5200 2450 6250 2450
+Text HLabel 5600 2950 2    50   Input ~ 0
+~FPGA_CRESET_B
 Wire Wire Line
-	2400 4850 3000 4850
+	5200 2950 5600 2950
 Wire Wire Line
-	2400 5050 3000 5050
+	2400 2950 3000 2950
+Wire Wire Line
+	2400 3250 3000 3250
 Wire Bus Line
 	13950 6200 13950 6950
 Wire Bus Line

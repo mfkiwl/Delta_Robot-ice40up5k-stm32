@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -80,7 +80,7 @@ $EndComp
 Text HLabel 6300 3400 2    50   Output ~ 0
 PRESSURE_AOUT
 Text GLabel 5350 3600 2    50   Input ~ 0
-+3.3V_ESP32
++3V3
 $Comp
 L power:GND #PWR054
 U 1 1 5EA82800
@@ -93,7 +93,7 @@ F 3 "" H 5350 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 5100 3900 0    50   Input ~ 0
-+3.3V_ESP32
++3V3
 Wire Wire Line
 	5350 3500 5200 3500
 Wire Wire Line
