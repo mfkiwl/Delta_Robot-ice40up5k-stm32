@@ -80,19 +80,6 @@ EXT_I2C1
 Text Label 5500 4250 0    50   ~ 0
 EXT_I2C0
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5EE50C94
-P 6400 4250
-AR Path="/5E9CBA65/5EE50C94" Ref="J?"  Part="1" 
-AR Path="/5EC35083/5EE50C94" Ref="J9"  Part="1" 
-F 0 "J9" H 6480 4292 50  0000 L CNN
-F 1 "Conn_01x03" H 6480 4201 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 6400 4250 50  0001 C CNN
-F 3 "~" H 6400 4250 50  0001 C CNN
-	1    6400 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5EE50C9A
 P 6150 4450
@@ -162,16 +149,7 @@ Wire Notes Line
 Wire Notes Line
 	7200 2600 7200 5850
 Wire Wire Line
-	6150 4450 6150 4350
-Wire Wire Line
-	6150 4350 6200 4350
-Wire Wire Line
-	6200 4150 6200 4100
-Wire Wire Line
-	6200 4100 5900 4100
-Wire Wire Line
 	5900 4000 5900 4100
-Connection ~ 5900 4100
 Wire Wire Line
 	5900 4100 5500 4100
 Wire Wire Line
@@ -204,9 +182,31 @@ Wire Wire Line
 	5900 4800 5900 4650
 Wire Wire Line
 	5900 4350 5900 4250
-Connection ~ 5900 4250
-Wire Wire Line
-	5900 4250 6200 4250
 Wire Wire Line
 	5900 5400 5900 5550
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5EE50C94
+P 6400 4250
+AR Path="/5E9CBA65/5EE50C94" Ref="J?"  Part="1" 
+AR Path="/5EC35083/5EE50C94" Ref="J9"  Part="1" 
+F 0 "J9" H 6480 4292 50  0000 L CNN
+F 1 "Conn_01x03" H 6480 4201 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 6400 4250 50  0001 C CNN
+F 3 "~" H 6400 4250 50  0001 C CNN
+	1    6400 4250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6150 4450 6150 4350
+Wire Wire Line
+	6150 4350 6200 4350
+Wire Wire Line
+	6200 4250 5900 4250
+Connection ~ 5900 4250
+Wire Wire Line
+	5900 4100 6200 4100
+Wire Wire Line
+	6200 4100 6200 4150
+Connection ~ 5900 4100
 $EndSCHEMATC

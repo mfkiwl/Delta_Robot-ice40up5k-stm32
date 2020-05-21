@@ -259,7 +259,7 @@ F 3 "http://www.latticesemi.com/view_document?document_id=51968" H 4100 3950 50 
 F 4 "1.4" H 4100 3950 50  0001 L BNN "Field4"
 F 5 "Lattice Semiconductor" H 4100 3950 50  0001 L BNN "Field5"
 F 6 "10381" H 4100 3950 50  0001 L BNN "Field6"
-F 7 "https://www.digikey.com/product-detail/en/lattice-semiconductor-corporation/ICE40UP5K-SG48I/220-2212-1-ND/9563352" H 4100 3950 50  0001 C CNN "Digikey"
+F 7 "220-2212-1-ND" H 4100 3950 50  0001 C CNN "Digikey"
 F 8 "https://www.mouser.com/datasheet/2/225/FPGAUG0200110-1324499.pdf" H 4100 3950 50  0001 C CNN "Breakout board"
 	1    4100 3950
 	1    0    0    -1  
@@ -885,9 +885,9 @@ Text Label 6250 3950 2    50   ~ 0
 FPGA_CTRL_FMC_CLK
 Wire Wire Line
 	5200 3950 6250 3950
-Text HLabel 2400 2950 0    50   Output ~ 0
+Text HLabel 2450 3750 0    50   Output ~ 0
 FPGA_SOLENOID1
-Text HLabel 2400 3250 0    50   Output ~ 0
+Text HLabel 2450 2950 0    50   Output ~ 0
 FPGA_SOLENOID2
 Wire Wire Line
 	10450 8800 9350 8800
@@ -906,10 +906,6 @@ Text HLabel 5600 2950 2    50   Input ~ 0
 ~FPGA_CRESET_B
 Wire Wire Line
 	5200 2950 5600 2950
-Wire Wire Line
-	2400 2950 3000 2950
-Wire Wire Line
-	2400 3250 3000 3250
 Text Label 13050 6300 0    50   ~ 0
 FPGA_CONTROL0
 Text Label 13050 6450 0    50   ~ 0
@@ -970,6 +966,10 @@ Wire Wire Line
 	1750 4950 3000 4950
 Wire Wire Line
 	1750 4350 3000 4350
+Wire Wire Line
+	2450 3750 3000 3750
+Wire Wire Line
+	2450 2950 3000 2950
 Wire Bus Line
 	12950 4350 12950 4800
 Wire Bus Line

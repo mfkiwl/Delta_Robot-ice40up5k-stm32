@@ -6,4 +6,5 @@
   (lib (name 47590-0001)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/47590-0001.lib)(options "")(descr ""))
   (lib (name ESDA6V1BC6)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/ESDA6V1BC6.lib)(options "")(descr ""))
   (lib (name STMPS2151STR)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/STMPS2151STR.lib)(options "")(descr ""))
+  (lib (name STMPS2151MTR)(type Legacy)(uri ${KIPRJMOD}/../kicad-modules/libs/STMPS2151MTR.lib)(options "")(descr ""))
 )
