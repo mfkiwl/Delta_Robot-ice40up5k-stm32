@@ -13,34 +13,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 10050 8500 0    50   BiDi ~ 0
+Text HLabel 9200 8500 0    50   BiDi ~ 0
 STM32_I2C[1..0]
 Wire Bus Line
-	10050 8500 10450 8500
-Text Label 11350 8600 2    50   ~ 0
+	9200 8500 9600 8500
+Text Label 11200 8600 2    50   ~ 0
 STM32_I2C_SCL
 Entry Wire Line
-	10450 8500 10550 8600
-Wire Wire Line
-	10550 8600 11350 8600
+	9600 8500 9700 8600
 Entry Wire Line
-	10450 8650 10550 8750
-Text Label 11350 8750 2    50   ~ 0
+	9600 8650 9700 8750
+Text Label 11200 8750 2    50   ~ 0
 STM32_I2C_SDA
-Wire Wire Line
-	10550 8750 11350 8750
 Wire Bus Line
-	10450 8650 10450 8500
+	9600 8650 9600 8500
 Text HLabel 12600 8500 0    50   BiDi ~ 0
 STM32_JTAG[4..0]
 Wire Bus Line
 	12600 8500 13000 8500
-Text Label 13900 8600 2    50   ~ 0
-STM32_JTAG_TMS
 Entry Wire Line
 	13000 8500 13100 8600
-Wire Wire Line
-	13100 8600 13900 8600
 Entry Wire Line
 	13000 8650 13100 8750
 Entry Wire Line
@@ -49,36 +41,6 @@ Entry Wire Line
 	13000 8950 13100 9050
 Entry Wire Line
 	13000 9100 13100 9200
-Text Label 13900 8750 2    50   ~ 0
-STM32_JTAG_TCK
-Text Label 13900 8900 2    50   ~ 0
-STM32_JTAG_TDI
-Text Label 13900 9050 2    50   ~ 0
-STM32_JTAG_TDO
-Text Label 13900 9200 2    50   ~ 0
-STM32_JTAG_TRST
-Wire Wire Line
-	13100 8750 13900 8750
-Wire Wire Line
-	13900 8900 13100 8900
-Wire Wire Line
-	13100 9050 13900 9050
-Wire Wire Line
-	13900 9200 13100 9200
-$Comp
-L 47590-0001:47590-0001 J8
-U 1 1 5EC29CA8
-P 14150 3200
-F 0 "J8" H 14257 3767 50  0000 C CNN
-F 1 "47590-0001" H 14257 3676 50  0000 C CNN
-F 2 "SMD:MOLEX_47590-0001" H 14150 3200 50  0001 L BNN
-F 3 "B1https://www.molex.com/pdm_docs/sd/475900001_sd.pdf" H 14150 3200 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 14150 3200 50  0001 L BNN "Field4"
-F 5 "MOLEX INC" H 14150 3200 50  0001 L BNN "Field5"
-F 6 "WM17144CT-ND" H 14150 3200 50  0001 C CNN "Digikey"
-	1    14150 3200
-	-1   0    0    -1  
-$EndComp
 $Comp
 L STMPS2151STR:STMPS2151STR IC1
 U 1 1 5ED06298
@@ -102,22 +64,14 @@ $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5ED1EC4D
-P 13550 3300
-F 0 "#PWR0102" H 13550 3050 50  0001 C CNN
-F 1 "GND" V 13555 3172 50  0000 R CNN
-F 2 "" H 13550 3300 50  0001 C CNN
-F 3 "" H 13550 3300 50  0001 C CNN
-	1    13550 3300
-	0    1    1    0   
+P 14100 3600
+F 0 "#PWR0102" H 14100 3350 50  0001 C CNN
+F 1 "GND" V 14105 3472 50  0000 R CNN
+F 2 "" H 14100 3600 50  0001 C CNN
+F 3 "" H 14100 3600 50  0001 C CNN
+	1    14100 3600
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13550 3300 13750 3300
-Wire Wire Line
-	12800 3200 13750 3200
-Wire Wire Line
-	12600 3100 13750 3100
-Wire Wire Line
-	12500 3000 13750 3000
 $Comp
 L power:GND #PWR0108
 U 1 1 5ED5249E
@@ -289,8 +243,6 @@ STM32_USB_DP
 Text Label 11300 4100 0    50   ~ 0
 STM32_USB_ID
 Wire Wire Line
-	12300 2900 13750 2900
-Wire Wire Line
 	11850 2900 12300 2900
 Connection ~ 12300 2900
 $Comp
@@ -307,28 +259,19 @@ $EndComp
 Wire Wire Line
 	12300 2900 12300 3800
 Wire Wire Line
-	12500 3000 12500 3900
-Wire Wire Line
 	12400 4450 12400 4350
 Wire Wire Line
 	12700 4450 12700 4350
 Wire Wire Line
-	12800 3200 12800 4100
-Wire Wire Line
 	11300 4100 12800 4100
-Connection ~ 12800 4100
 Wire Wire Line
 	12800 4100 12800 4450
 Wire Wire Line
 	11300 4000 12600 4000
 Wire Wire Line
-	12600 3100 12600 4000
-Connection ~ 12600 4000
-Wire Wire Line
 	12600 4000 12600 4450
 Wire Wire Line
 	11300 3900 12500 3900
-Connection ~ 12500 3900
 Wire Wire Line
 	12500 3900 12500 4450
 Wire Wire Line
@@ -336,70 +279,20 @@ Wire Wire Line
 Connection ~ 12300 3800
 Wire Wire Line
 	12300 3800 12300 4450
-Text GLabel 13500 3500 0    50   Input ~ 0
+Text GLabel 14200 3600 3    50   Input ~ 0
 GND_CASE
 Wire Wire Line
-	13500 3500 13750 3500
-Wire Wire Line
-	11000 7350 9850 7350
-Text Label 11000 7350 2    50   ~ 0
+	11200 7350 10050 7350
+Text Label 11200 7350 2    50   ~ 0
 STM32_UART_RX
 Wire Wire Line
-	11000 7450 9850 7450
-Text Label 11000 7450 2    50   ~ 0
+	11200 7450 10050 7450
+Text Label 11200 7450 2    50   ~ 0
 STM32_UART_TX
-Text HLabel 9850 7450 0    50   Output ~ 0
+Text HLabel 10050 7450 0    50   Output ~ 0
 STM32_TX
-Text HLabel 9850 7350 0    50   Input ~ 0
+Text HLabel 10050 7350 0    50   Input ~ 0
 STM32_RX
-Wire Wire Line
-	13100 8150 13900 8150
-Text Label 13900 8150 2    50   ~ 0
-STM32_CTRL_NE
-Entry Wire Line
-	13000 7900 13100 8000
-Entry Wire Line
-	13000 8050 13100 8150
-Entry Wire Line
-	13000 7900 13100 8000
-Entry Wire Line
-	13000 8050 13100 8150
-Entry Wire Line
-	13000 8050 13100 8150
-Wire Wire Line
-	13900 8000 13100 8000
-Wire Wire Line
-	13100 7850 13900 7850
-Wire Wire Line
-	13900 7700 13100 7700
-Wire Wire Line
-	13100 7550 13900 7550
-Text Label 13900 8000 2    50   ~ 0
-STM32_CTRL_NWAIT
-Text Label 13900 7850 2    50   ~ 0
-STM32_CTRL_NWE
-Text Label 13900 7700 2    50   ~ 0
-STM32_CTRL_NOE
-Text Label 13900 7550 2    50   ~ 0
-STM32_CTRL_FMC_CLK
-Entry Wire Line
-	13000 7900 13100 8000
-Entry Wire Line
-	13000 7750 13100 7850
-Entry Wire Line
-	13000 7600 13100 7700
-Entry Wire Line
-	13000 7450 13100 7550
-Wire Wire Line
-	13100 7400 13900 7400
-Entry Wire Line
-	13000 7300 13100 7400
-Text Label 13900 7400 2    50   ~ 0
-STM32_CTRL_NAVD
-Wire Bus Line
-	12600 7300 13000 7300
-Text HLabel 12600 7300 0    50   BiDi ~ 0
-STM32_CONTROL[5..0]
 Connection ~ 4700 4350
 Wire Wire Line
 	4650 4350 4700 4350
@@ -594,26 +487,6 @@ F 5 "FC4SDCBMF8.0-T1" V 2550 6500 50  0001 C CNN "Value2"
 	1    2550 6500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3050 7200 4100 7200
-Wire Wire Line
-	4100 7100 3050 7100
-Wire Wire Line
-	3050 7000 4100 7000
-Wire Wire Line
-	4100 6900 3050 6900
-Wire Wire Line
-	3050 6800 4100 6800
-Text Label 3050 7200 0    50   ~ 0
-STM32_CTRL_NE
-Text Label 3050 7100 0    50   ~ 0
-STM32_CTRL_NWAIT
-Text Label 3050 7000 0    50   ~ 0
-STM32_CTRL_NWE
-Text Label 3050 6900 0    50   ~ 0
-STM32_CTRL_NOE
-Text Label 3050 6800 0    50   ~ 0
-STM32_CTRL_NAVD
 Text HLabel 6150 5500 2    50   Input ~ 0
 PRESSURE_AIN
 Wire Wire Line
@@ -631,7 +504,7 @@ Text Label 6750 6700 2    50   ~ 0
 STM32_JTAG_TDI
 Text Label 6750 6600 2    50   ~ 0
 STM32_JTAG_TCK
-Text Label 6700 6900 2    50   ~ 0
+Text Label 6750 6500 2    50   ~ 0
 STM32_JTAG_TMS
 Wire Wire Line
 	3800 6000 3800 5950
@@ -829,8 +702,6 @@ Text Label 6750 6400 2    50   ~ 0
 STM32_USB_DP
 Text Label 6750 6200 2    50   ~ 0
 STM32_USB_ID
-Text Label 6750 6500 2    50   ~ 0
-STM32_USB_PowerSwitchOn
 Text Label 3000 7700 0    50   ~ 0
 STM32_USB_OverCurrent
 Text GLabel 11700 1550 0    50   Input ~ 0
@@ -862,10 +733,6 @@ Wire Notes Line
 	8550 1300 14800 1300
 Wire Notes Line
 	14800 1300 14800 6450
-Wire Notes Line
-	14800 6450 8550 6450
-Wire Notes Line
-	8550 6450 8550 1300
 Text Notes 8900 1500 0    98   ~ 0
 USB
 Wire Wire Line
@@ -888,9 +755,88 @@ $EndComp
 Wire Wire Line
 	3000 7700 4100 7700
 Wire Wire Line
+	9700 8600 11200 8600
+Wire Wire Line
+	9700 8750 11200 8750
+Text Label 9750 8600 0    50   ~ 0
+STM32_I2C0
+Text Label 9750 8750 0    50   ~ 0
+STM32_I2C1
+Text Label 13100 8600 0    50   ~ 0
+STM32_JTAG0
+Text Label 13100 8900 0    50   ~ 0
+STM32_JTAG2
+Text Label 13100 9050 0    50   ~ 0
+STM32_JTAG3
+Text Label 13100 9200 0    50   ~ 0
+STM32_JTAG4
+Text Label 13100 8750 0    50   ~ 0
+STM32_JTAG1
+Text Label 15000 8600 2    50   ~ 0
+STM32_JTAG_TMS
+Text Label 15000 8750 2    50   ~ 0
+STM32_JTAG_TCK
+Text Label 15000 8900 2    50   ~ 0
+STM32_JTAG_TDI
+Text Label 15000 9050 2    50   ~ 0
+STM32_JTAG_TDO
+Text Label 15000 9200 2    50   ~ 0
+STM32_JTAG_TRST
+Wire Wire Line
+	13100 8600 15000 8600
+Wire Wire Line
+	15000 8750 13100 8750
+Wire Wire Line
+	13100 8900 15000 8900
+Wire Wire Line
+	15000 9050 13100 9050
+Wire Wire Line
+	13100 9200 15000 9200
+Wire Wire Line
 	6750 6500 5500 6500
+Wire Notes Line
+	8550 6450 8550 1300
+Wire Notes Line
+	14800 6450 8550 6450
+Text Label 3000 8000 0    50   ~ 0
+STM32_USB_PowerSwitchOn
+Wire Wire Line
+	3000 8000 4100 8000
+$Comp
+L BarrelConnector:USB_OTG J8
+U 1 1 5EF53BAF
+P 14100 3100
+AR Path="/5EA31305/5EF53BAF" Ref="J8"  Part="1" 
+AR Path="/5E9CBA65/5EF53BAF" Ref="J8"  Part="1" 
+F 0 "J8" H 13870 3089 50  0000 R CNN
+F 1 "USB_OTG" H 13870 2998 50  0000 R CNN
+F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 14250 3050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/475900001_sd.pdf" H 14250 3050 50  0001 C CNN
+F 4 "WM17144CT-ND" H 14100 3100 50  0001 C CNN "Digikey"
+	1    14100 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 2900 13800 2900
+Wire Wire Line
+	14100 3600 14100 3500
+Wire Wire Line
+	14200 3600 14200 3500
+Wire Wire Line
+	12500 3900 12500 3200
+Wire Wire Line
+	12500 3200 13800 3200
+Connection ~ 12500 3900
+Wire Wire Line
+	12600 4000 12600 3100
+Wire Wire Line
+	12600 3100 13800 3100
+Connection ~ 12600 4000
+Wire Wire Line
+	12800 4100 12800 3300
+Wire Wire Line
+	12800 3300 13800 3300
+Connection ~ 12800 4100
 Wire Bus Line
 	13000 8500 13000 9100
-Wire Bus Line
-	13000 7300 13000 8050
 $EndSCHEMATC
