@@ -983,6 +983,14 @@ Wire Wire Line
 	750  3350 2250 3350
 Wire Wire Line
 	1400 3450 2250 3450
+Text HLabel 1400 3550 0    50   Output ~ 0
+STM32_BOOT0
+Text HLabel 1350 2350 0    50   Output ~ 0
+STM32_BOOT1
+Wire Wire Line
+	1350 2350 2250 2350
+Wire Wire Line
+	1400 3550 2250 3550
 Wire Bus Line
 	9150 1300 9150 1750
 Wire Bus Line

@@ -839,7 +839,15 @@ Wire Wire Line
 Connection ~ 11800 3000
 Wire Wire Line
 	10700 2700 10700 2800
+Connection ~ 10700 2800
+Text HLabel 3600 5400 0    50   Input ~ 0
+STM32_BOOT0
+Text HLabel 6150 7100 2    50   Output ~ 0
+STM32_BOOT1
+Wire Wire Line
+	3600 5400 4100 5400
+Wire Wire Line
+	6150 7100 5500 7100
 Wire Bus Line
 	13000 8500 13000 9100
-Connection ~ 10700 2800
 $EndSCHEMATC
