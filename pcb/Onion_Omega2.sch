@@ -875,8 +875,8 @@ Wire Notes Line
 	4850 650  4850 4000
 Text Notes 5300 800  2    50   ~ 0
 ETHERNET
-Text HLabel 1400 2550 0    50   Output ~ 0
-~FPGA_CRESET_B
+Text HLabel 1350 2550 0    50   Output ~ 0
+~FPGA_RESET
 Text HLabel 1400 3450 0    50   Output ~ 0
 STM32_NRST
 $Comp
@@ -929,8 +929,6 @@ Wire Wire Line
 	3650 2750 4050 2750
 Entry Bus Bus
 	9150 2400 9250 2500
-Wire Wire Line
-	1400 2550 2250 2550
 Text Label 9250 1400 0    50   ~ 0
 Omega2_SPI0
 Text Label 9250 1550 0    50   ~ 0
@@ -991,6 +989,8 @@ Wire Wire Line
 	1350 2350 2250 2350
 Wire Wire Line
 	1400 3550 2250 3550
+Wire Wire Line
+	1350 2550 2250 2550
 Wire Bus Line
 	9150 1300 9150 1750
 Wire Bus Line
