@@ -1,55 +1,56 @@
 Reference, Quantity, Value, Footprint, Datasheet, Digikey, MPN, Mouser, Breakout board, Field4, Field5, Field6, Value2, Description, Manufacturer_Name, Drawing
-C10 C3 C9 ,3,"22uF","Capacitor_SMD:C_0603_1608Metric","~","1276-2868-1-ND","CL10A226MQ8NRNE","","","","","","","","",""
-C11 C23 ,2,"10uF","Capacitor_SMD:C_0603_1608Metric","~","1253-CM105X5R106M25ATCT-ND","CM105X5R106M25AT","346-CM105X5R106M25AT","","","","","","","",""
-C12 C13 C5 C6 C16 C22 C47 C50 C21 C43 C44 C1 C55 C29 C30 C31 C27 C36 C35 C38 C39 C52 C37 ,23,"0.1uF","Capacitor_SMD:C_0603_1608Metric","~","399-7845-1-ND","C0603C104M5RACTU","80-C0603C104M5R","","","","","","","",""
-C14 C15 ,2,"1nF","Capacitor_SMD:C_0603_1608Metric","~","311-1080-1-ND","CC0603KRX7R9BB102","603-CC603KRX7R9BB102","","","","","","","",""
-C2 C18 C17 C19 C20 C53 C40 ,7,"1uF","Capacitor_SMD:C_0603_1608Metric","~","1276-1102-1-ND","CL10A105KA8NNNC","","","","","","","","",""
-C25 C24 ,2,"4.3pF","Capacitor_SMD:C_0603_1608Metric","~","1276-2309-1-ND","CL10C4R3CB8NNNC","","","","","","","","",""
-C26 ,1,"4.7uF","Capacitor_SMD:CP_Elec_4x3","https://www.we-online.de/katalog/datasheet/865060240001.pdf","732-8569-1-ND","865060240001","710-865060240001","","","","","","","",""
-C28 ,1,"2.2uF","Capacitor_SMD:C_0603_1608Metric","~","587-1430-1-ND","EMK107BJ225KA-T","963-EMK107BJ225KA-T","","","","","","","",""
-C32 ,1,"22uF","Capacitor_SMD:CP_Elec_4x3","https://www.we-online.de/katalog/datasheet/865060240001.pdf","732-8569-1-ND","865060240001","710-865060240001","","","","","","","",""
-C42 ,1,"470pF","Capacitor_SMD:C_0603_1608Metric","~","399-1075-1-ND","C0603C471K5RACTU","80-C0603C471K5R","","","","","","","",""
-C46 C45 C48 C49 C41 ,5,"10nF","Capacitor_SMD:C_0603_1608Metric","~","399-7842-1-ND","C0603C103M5RACTU","80-C0603C103M5R","","","","","","","",""
-C51 ,1,"100nF","Capacitor_SMD:C_0603_1608Metric","~","399-1100-1-ND","C0603C104Z3VACTU","80-C0603C104Z3V","","","","","","","",""
-C54 C34 ,2,"2pF","Capacitor_SMD:C_0603_1608Metric","~","1276-2124-1-ND","CL10C020CB8NNNC","","","","","","","","",""
-C8 ,1,"4.7uF","Capacitor_SMD:C_0603_1608Metric","~","1276-1907-1-ND","CL10A475MQ8NNNC","","","","","","","","",""
-CR1 ,1,"ESDA6V1BC6","SMD:ESDA6V1BC6","https://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf","497-6635-1-ND","ESDA6V1BC6","511-ESDA6V1BC6","","","","","","","",""
-D1 D2 D5 D4 D8 D10 ,6,"LED","LED_SMD:LED_0603_1608Metric","~","732-4971-1-ND","150060GS75000","710-150060GS75000","","","","","","","",""
-D12 ,1,"NUP2105L","Package_TO_SOT_SMD:SOT-23","http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF","SZNUP2105LT1GOSCT-ND","SZNUP2105LT1G","863-SZNUP2105LT1G","","","","","","","",""
-D3 D9 D11 ,3,"CDBU0520","Diode_SMD:D_0603_1608Metric","http://www.comchiptech.com/admin/files/product/CDBU0520-HF-RevA797161.pdf","641-1332-1-ND","CDBU0520","750-CDBU0520","","","","","","","",""
-D6 ,1,"BZT52-B5V1J","Diode_SMD:D_SOD-123","~","1727-7742-1-ND","BZT52-B5V1J","771-BZT52-B5V1J","","","","","","","",""
-H1 H2 H3 H4 ,4,"MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_Via","~"
-IC1 ,1,"STMPS2151MTR","SMD:SOIC127P600X175-8N","http://docs-emea.rs-online.com/webdocs/140d/0900766b8140da90.pdf","497-8349-1-ND","STMPS2151MTR","511-STMPS2151MTR","","","","","","STMICROELECTRONICS - STMPS2151MTR","STMicroelectronics",""
-J1 ,1,"Conn_01x04","TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal","~","A98335-ND","282834-4","571-282834-4","","","","","","","",""
-J2 J9 ,2,"Conn_01x03","TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal","~","A98334-ND","282834-3","571-2828343","","","","","","","",""
-J3 ,1,"USB_A","Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal","https://belfuse.com/resources/datasheets/stewartconnector/ds-stw-usb-2.0-and-3.0-connectors.pdf","380-1412-ND","SS-52100-001","530-SS-52100-001","","","","","","","",""
-J4 J5 ,2,"Conn_01x02","TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal","~","A98333-ND","282834-2","571-282834-2","","","","","","","",""
-J6 ,1,"MP3V5050VC6U","SMD:MP3V5050VC6U","https://www.nxp.com/docs/en/data-sheet/MP3V5050V.pdf","568-MP3V5050VC6U-ND","MP3V5050VC6U","841-MP3V5050VC6U","","","","","","","",""
-J7 ,1,"RJ45","Connector_RJ:RJ45_Amphenol_RJHSE5380","https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf","RJHSE-5380-ND","RJHSE-5380","523-RJHSE-5380","","","","","","","",""
-J8 ,1,"USB_OTG","SMD:USB_Micro-AB_Molex_47590-0001","https://www.molex.com/pdm_docs/sd/475900001_sd.pdf","WM17144CT-ND","0475900001","538-47590-0001","","","","","","","",""
-JP2 JP1 ,2,"Jumper","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"
-L10 L8 ,2,"742792651","Inductor_SMD:L_0603_1608Metric","https://www.we-online.de/katalog/datasheet/742792651.pdf","732-1593-1-ND","742792651","710-742792651","","","","","","","",""
-L11 L9 L7 ,3,"SRF2012-900YA","Inductor_SMD:L_0603_1608Metric","https://www.bourns.com/docs/Product-Datasheets/SRF2012A.pdf","SRF2012-900YACT-ND","SRF2012-900YA","652-SRF2012-900YA","","","","","","","",""
-L2 L3 ,2,"BLM18SG121TN1D","Inductor_SMD:L_0603_1608Metric","~","490-3996-6-ND","BLM18SG121TN1D","81-BLM18SG121TN1D","","","","","","","",""
-Q1 Q2 ,2,"IRF9540STRLPBF","Package_TO_SOT_SMD:TO-263-2","http://www.vishay.com/docs/91079/91079.pdf","IRF9540STRLPBFCT-ND","IRF9540STRLPBF","844-IRF9540STRLPBF","","","","","","","",""
-R1 R7 R37 R11 R12 R13 R14 ,7,"100","Resistor_SMD:R_0603_1608Metric","~","311-100HRCT-ND","RC0603FR-07100RL","603-RC0603FR-07100RL","","","","","","","",""
-R15 R36 ,2,"4.7k","Resistor_SMD:R_0603_1608Metric","~","RR08P4.7KDCT-ND","RR0816P-472-D","","","","","","","","",""
-R17 R16 ,2,"0K","Resistor_SMD:R_0603_1608Metric","~","311-0.0GRCT-ND","RC0603JR-070RL","603-RC0603JR-070RL","","","","","","","",""
-R2 R22 R25 ,3,"1.5k","Resistor_SMD:R_0603_1608Metric","~","A130092CT-ND","CRGCQ0603J1K5","279-CRGCQ0603J1K5","","","","","","","",""
-R20 R23 ,2,"47","Resistor_SMD:R_0603_1608Metric","~","A130083CT-ND","CRGCQ0603J47R","279-CRGCQ0603J47R","","","","","","","",""
-R21 R24 ,2,"100k","Resistor_SMD:R_0603_1608Metric","~","RR08P100KDCT-ND","RR0816P-104-D","754-RR0816P-104D","","","","","","","",""
-R26 R29 R27 R30 R31 ,5,"1","Resistor_SMD:R_0603_1608Metric","~","311-1.00HRCT-ND","RC0603FR-071RL","603-RC0603FR-071RL","","","","","","","",""
-R28 R10 ,2,"4.7","Resistor_SMD:R_0603_1608Metric","~","2019-RK73B1JTTD4R7JCT-ND","RK73B1JTTD4R7J","660-RK73B1JTTD4R7J","","","","","","","",""
-R32 R34 R35 R33 ,4,"50","Resistor_SMD:R_0603_1608Metric","~","A130083CT-ND","CRGCQ0603J47R","279-CRGCQ0603J47R","","","","","","","",""
-R38 R8 R9 R18 R19 ,5,"10k","Resistor_SMD:R_0603_1608Metric","~","311-10KGRCT-ND","RC0603JR-0710KL","603-RC0603JR-0710KL","","","","","","","",""
-R4 R5 R6 R3 ,4,"10k","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~","311-10KGRCT-ND","RC0603JR-0710KL","603-RC0603JR-0710KL","","","","","","","",""
-SW3 SW4 ,2,"TL3305A","Button_Switch_SMD:SW_SPST_TL3305A","https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf","EG5353CT-ND","TL3305AF260QG","612-TL3305AF260QG","","","","","","","","http://spec_sheets.e-switch.com/specs/P010471.pdf"
-U2 ,1,"LDL1117S33R","Package_TO_SOT_SMD:SOT-223-3_TabPin2","https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/0e/5a/00/ca/10/1a/4f/a5/DM00366442/files/DM00366442.pdf/jcr:content/translations/en.DM00366442.pdf","497-17239-1-ND","LDL1117S33R","511-LDL1117S33R","","","","","","","",""
-U3 ,1,"ZLDO1117G12TA","Package_TO_SOT_SMD:SOT-223-3_TabPin2","https://www.diodes.com/assets/Datasheets/ZLDO1117.pdf","ZLDO1117G12DICT-ND","ZLDO1117G12TA","522-ZLDO1117G12TA","","","","","","","",""
-U4 ,1,"ICE40UP5K-SG48I","SMD:QFN50P700X700X100-49N","http://www.latticesemi.com/view_document?document_id=51968","220-2212-1-ND","ICE40UP5K-SG48I","842-ICE40UP5K-SG48I","https://www.mouser.com/datasheet/2/225/FPGAUG0200110-1324499.pdf","1.4","Lattice Semiconductor","10381","","","",""
-U5 ,1,"W25Q64JVSSIQ","Package_SO:SOIC-8_5.23x5.23mm_P1.27mm","https://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf","W25Q64JVSSIQ-ND","W25Q64JVSSIQ","454-W25Q64JVSSIQ","","","","","","","",""
-U6 ,1,"STM32F412RGT6","Package_QFP:LQFP-64_10x10mm_P0.5mm","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00213872.pdf","497-16764-ND","STM32F412RGT6","511-STM32F412RGT6","","","","","","","",""
-U7 ,1,"Omega2+","TH:ONION_OMEGA2","https://docs.onion.io/omega2-docs/omega2p.html","1568-1769-ND","DEV-14431","474-DEV-14431","","","","","","","",""
-U8 U9 ,2,"4N25-X007T","SMD:DIL6-SMD","https://www.vishay.com/docs/83725/4n25.pdf","4N25-X007TCT-ND","4N25-X007T","782-4N25-X007T","","","","","","","",""
-Y1 ,1,"8MHz","Crystal:Crystal_SMD_HC49-SD","https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf","631-1010-1-ND","FC4SDCBMF8.0-T1","559-FOXSD080-20-LF","","","","","FC4SDCBMF8.0-T1","","",""
-Y2 ,1,"32.768KHZ","Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm","https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf","2195-CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QCCT-ND","CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC","428-200458-MG01","","","","","CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC","","",""
+F: C10 C3 C9 ,3,22uF,Capacitor_SMD:C_0603_1608Metric,~,1276-2868-1-ND,CL10A226MQ8NRNE,,,,,,,,,
+F: C11 C23 ,2,10uF,Capacitor_SMD:C_0603_1608Metric,~,1253-CM105X5R106M25ATCT-ND,CM105X5R106M25AT,346-CM105X5R106M25AT,,,,,,,,
+F: C12 C13 C5 C6 C16 C22 C47 C50 C21 C43 C44 C1 C55 C29 C30 C31 C27 C36 C35 C38 C39 C52 C37 ,23,0.1uF,Capacitor_SMD:C_0603_1608Metric,~,399-7845-1-ND,C0603C104M5RACTU,80-C0603C104M5R,,,,,,,,
+F: C14 C15 ,2,1nF,Capacitor_SMD:C_0603_1608Metric,~,311-1080-1-ND,CC0603KRX7R9BB102,603-CC603KRX7R9BB102,,,,,,,,
+F: C2 C18 C17 C19 C20 C53 C40 ,7,1uF,Capacitor_SMD:C_0603_1608Metric,~,1276-1102-1-ND,CL10A105KA8NNNC,,,,,,,,,
+F: C25 C24 ,2,4.3pF,Capacitor_SMD:C_0603_1608Metric,~,1276-2309-1-ND,CL10C4R3CB8NNNC,,,,,,,,,
+F: C26 ,1,4.7uF,Capacitor_SMD:CP_Elec_4x3,https://www.we-online.de/katalog/datasheet/865060240001.pdf,732-8569-1-ND,8.6506E+11,710-865060240001,,,,,,,,
+F: C28 ,1,2.2uF,Capacitor_SMD:C_0603_1608Metric,~,587-1430-1-ND,EMK107BJ225KA-T,963-EMK107BJ225KA-T,,,,,,,,
+F: C32 ,1,22uF,Capacitor_SMD:CP_Elec_4x3,https://www.we-online.de/katalog/datasheet/865060240001.pdf,732-8569-1-ND,8.6506E+11,710-865060240001,,,,,,,,
+F: C42 ,1,470pF,Capacitor_SMD:C_0603_1608Metric,~,399-1075-1-ND,C0603C471K5RACTU,80-C0603C471K5R,,,,,,,,
+F: C46 C45 C48 C49 C41 ,5,10nF,Capacitor_SMD:C_0603_1608Metric,~,399-7842-1-ND,C0603C103M5RACTU,80-C0603C103M5R,,,,,,,,
+F: C51 ,1,100nF,Capacitor_SMD:C_0603_1608Metric,~,399-1100-1-ND,C0603C104Z3VACTU,80-C0603C104Z3V,,,,,,,,
+F: C54 C34 ,2,2pF,Capacitor_SMD:C_0603_1608Metric,~,1276-2124-1-ND,CL10C020CB8NNNC,,,,,,,,,
+F: C8 ,1,4.7uF,Capacitor_SMD:C_0603_1608Metric,~,1276-1907-1-ND,CL10A475MQ8NNNC,,,,,,,,,
+F: CR1 ,1,ESDA6V1BC6,SMD:ESDA6V1BC6,https://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf,497-6635-1-ND,ESDA6V1BC6,511-ESDA6V1BC6,,,,,,,,
+F: D1 D2 D5 D4 D8 D10 ,6,LED,LED_SMD:LED_0603_1608Metric,~,732-4971-1-ND,150060GS75000,710-150060GS75000,,,,,,,,
+F: D12 ,1,NUP2105L,Package_TO_SOT_SMD:SOT-23,http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF,SZNUP2105LT1GOSCT-ND,SZNUP2105LT1G,863-SZNUP2105LT1G,,,,,,,,
+F: D3 D9 D11 ,3,CDBU0520,Diode_SMD:D_0603_1608Metric,http://www.comchiptech.com/admin/files/product/CDBU0520-HF-RevA797161.pdf,641-1332-1-ND,CDBU0520,750-CDBU0520,,,,,,,,
+F: D6 ,1,BZT52-B5V1J,Diode_SMD:D_SOD-123,~,1727-7742-1-ND,BZT52-B5V1J,771-BZT52-B5V1J,,,,,,,,
+F: H1 H2 H3 H4 ,4,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_Pad_Via,~,,,,,,,,,,,
+F: IC1 ,1,STMPS2151MTR,SMD:SOIC127P600X175-8N,http://docs-emea.rs-online.com/webdocs/140d/0900766b8140da90.pdf,497-8349-1-ND,STMPS2151MTR,511-STMPS2151MTR,,,,,,STMICROELECTRONICS - STMPS2151MTR,STMicroelectronics,
+F: J1 ,1,Conn_01x04,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal,~,A98335-ND,282834-4,571-282834-4,,,,,,,,
+F: J2 J9 ,2,Conn_01x03,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal,~,A98334-ND,282834-3,571-2828343,,,,,,,,
+F: J3 ,1,USB_A,Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal,https://belfuse.com/resources/datasheets/stewartconnector/ds-stw-usb-2.0-and-3.0-connectors.pdf,380-1412-ND,SS-52100-001,530-SS-52100-001,,,,,,,,
+F: J4 J5 ,2,Conn_01x02,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~,A98333-ND,282834-2,571-282834-2,,,,,,,,
+F: J6 ,1,MP3V5050VC6U,SMD:MP3V5050VC6U,https://www.nxp.com/docs/en/data-sheet/MP3V5050V.pdf,568-MP3V5050VC6U-ND,MP3V5050VC6U,841-MP3V5050VC6U,,,,,,,,
+F: J7 ,1,RJ45,Connector_RJ:RJ45_Amphenol_RJHSE5380,https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf,RJHSE-5380-ND,RJHSE-5380,523-RJHSE-5380,,,,,,,,
+F: J8 ,1,USB_OTG,SMD:USB_Micro-AB_Molex_47590-0001,https://www.molex.com/pdm_docs/sd/475900001_sd.pdf,WM17144CT-ND,475900001,538-47590-0001,,,,,,,,
+F: JP2 JP1 ,2,Jumper,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,,,,,,,,,,
+F: L10 L8 ,2,742792651,Inductor_SMD:L_0603_1608Metric,https://www.we-online.de/katalog/datasheet/742792651.pdf,732-1593-1-ND,742792651,710-742792651,,,,,,,,
+F: L11 L9 L7 ,3,SRF2012-900YA,Inductor_SMD:L_0603_1608Metric,https://www.bourns.com/docs/Product-Datasheets/SRF2012A.pdf,SRF2012-900YACT-ND,SRF2012-900YA,652-SRF2012-900YA,,,,,,,,
+F: L2 L3 ,2,BLM18SG121TN1D,Inductor_SMD:L_0603_1608Metric,~,490-3996-6-ND,BLM18SG121TN1D,81-BLM18SG121TN1D,,,,,,,,
+F: Q1 Q2 ,2,IRF9540STRLPBF,Package_TO_SOT_SMD:TO-263-2,http://www.vishay.com/docs/91079/91079.pdf,IRF9540STRLPBFCT-ND,IRF9540STRLPBF,844-IRF9540STRLPBF,,,,,,,,
+F: R1 R7 R37 R11 R12 R13 R14 ,7,100,Resistor_SMD:R_0603_1608Metric,~,311-100HRCT-ND,RC0603FR-07100RL,603-RC0603FR-07100RL,,,,,,,,
+F: R15 R36 ,2,4.7k,Resistor_SMD:R_0603_1608Metric,~,RR08P4.7KDCT-ND,RR0816P-472-D,,,,,,,,,
+F: R17 R16 ,2,0K,Resistor_SMD:R_0603_1608Metric,~,311-0.0GRCT-ND,RC0603JR-070RL,603-RC0603JR-070RL,,,,,,,,
+F: R2 R22 R25 ,3,1.5k,Resistor_SMD:R_0603_1608Metric,~,A130092CT-ND,CRGCQ0603J1K5,279-CRGCQ0603J1K5,,,,,,,,
+F: R20 R23 ,2,47,Resistor_SMD:R_0603_1608Metric,~,A130083CT-ND,CRGCQ0603J47R,279-CRGCQ0603J47R,,,,,,,,
+F: R21 R24 ,2,100k,Resistor_SMD:R_0603_1608Metric,~,RR08P100KDCT-ND,RR0816P-104-D,754-RR0816P-104D,,,,,,,,
+F: R26 R29 R27 R30 R31 ,5,1,Resistor_SMD:R_0603_1608Metric,~,311-1.00HRCT-ND,RC0603FR-071RL,603-RC0603FR-071RL,,,,,,,,
+F: R28 R10 ,2,4.7,Resistor_SMD:R_0603_1608Metric,~,2019-RK73B1JTTD4R7JCT-ND,RK73B1JTTD4R7J,660-RK73B1JTTD4R7J,,,,,,,,
+F: R32 R34 R35 R33 ,4,50,Resistor_SMD:R_0603_1608Metric,~,A130083CT-ND,CRGCQ0603J47R,279-CRGCQ0603J47R,,,,,,,,
+F: R38 R8 R9 R18 R19 ,5,10k,Resistor_SMD:R_0603_1608Metric,~,311-10KGRCT-ND,RC0603JR-0710KL,603-RC0603JR-0710KL,,,,,,,,
+F: R4 R5 R6 R3 ,4,10k,Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,~,311-10KGRCT-ND,RC0603JR-0710KL,603-RC0603JR-0710KL,,,,,,,,
+F: SW3 SW4 ,2,TL3305A,Button_Switch_SMD:SW_SPST_TL3305A,https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf,EG5353CT-ND,TL3305AF260QG,612-TL3305AF260QG,,,,,,,,http://spec_sheets.e-switch.com/specs/P010471.pdf
+F: U2 ,1,LDL1117S33R,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/0e/5a/00/ca/10/1a/4f/a5/DM00366442/files/DM00366442.pdf/jcr:content/translations/en.DM00366442.pdf,497-17239-1-ND,LDL1117S33R,511-LDL1117S33R,,,,,,,,
+F: U3 ,1,ZLDO1117G12TA,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.diodes.com/assets/Datasheets/ZLDO1117.pdf,ZLDO1117G12DICT-ND,ZLDO1117G12TA,522-ZLDO1117G12TA,,,,,,,,
+F: U4 ,1,ICE40UP5K-SG48I,SMD:QFN50P700X700X100-49N,http://www.latticesemi.com/view_document?document_id=51968,220-2212-1-ND,ICE40UP5K-SG48I,842-ICE40UP5K-SG48I,https://www.mouser.com/datasheet/2/225/FPGAUG0200110-1324499.pdf,1.4,Lattice Semiconductor,10381,,,,
+F: U5 ,1,W25Q64JVSSIQ,Package_SO:SOIC-8_5.23x5.23mm_P1.27mm,https://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf,W25Q64JVSSIQ-ND,W25Q64JVSSIQ,454-W25Q64JVSSIQ,,,,,,,,
+F: U6 ,1,STM32F412RGT6,Package_QFP:LQFP-64_10x10mm_P0.5mm,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00213872.pdf,497-16764-ND,STM32F412RGT6,511-STM32F412RGT6,,,,,,,,
+F: U7 ,1,Omega2+,TH:ONION_OMEGA2,https://docs.onion.io/omega2-docs/omega2p.html,2070-OM-O2P-ND,OM-O2P,353-OM-O2P,,,,,,,,
+F: U8 U9 ,2,4N25-X007T,SMD:DIL6-SMD,https://www.vishay.com/docs/83725/4n25.pdf,4N25-X007TCT-ND,4N25-X007T,782-4N25-X007T,,,,,,,,
+F: Y1 ,1,8MHz,Crystal:Crystal_SMD_HC49-SD,https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf,631-1010-1-ND,FC4SDCBMF8.0-T1,559-FOXSD080-20-LF,,,,,FC4SDCBMF8.0-T1,,,
+F: Y2 ,1,32.768KHZ,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf,2195-CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QCCT-ND,CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC,428-200458-MG01,,,,,CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC,,,
+F: A1,1,,,,"	HDR200MET40F-G-RA-TH-ND",HDR200MET40F-G-RA-TH,,,,,,,,,
